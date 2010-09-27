@@ -4,13 +4,13 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "resque-lifecycle"
+    gem.name = "mogo-resque-lifecycle"
     gem.summary = "Adds job lifecycle data to Resque payloads"
-    gem.email = "brandon@systemisdown.net"
-    gem.homepage = "http://github.com/bitbckt/resque-lifecycle"
+    gem.email = "kevin@mogotest.com"
+    gem.homepage = "http://github.com/mogo/resque-lifecycle"
     gem.authors = ["bitbckt"]
     gem.add_development_dependency "shoulda", ">= 2.10"
-    gem.add_dependency "resque", "1.8.0"
+    gem.add_dependency "resque", ">= 1.8.0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
